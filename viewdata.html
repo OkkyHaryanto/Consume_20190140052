@@ -20,15 +20,19 @@
   <section>
     <div class="container">
       <center><h1 style="margin-top: 20px;font-size: 70px;font-family:Chiller;">Data Mahasiswa UMY</h1></center>
+      
       <center><a class="btn btn-success ms-10 mt-5" style="background-color: #030303; border:none; margin-bottom: 20px; font-family:Chiller;padding: 10px 20px;font-size: 30px;" href="addData.html">Tambah Data Mahasiswa</a></center>
-      <table id="dataTable" class="table table-bordered table-hover">
+      <table id="dataTable" class="table table-bordered table-hover" style="margin-left:auto;margin-right:auto">
+        <input class="form-control" id="myInput" type="text" placeholder="Search.." style="float: right;width: 20%;background-color: rgb(0, 247, 255);">
+      <div class="p-2 bd-highlight"></div>
         <style>
         table {
-          font-family: verdana, arial, sans-serif;
-          font-size: 20px;
+          
+          font-family:sans-serif;
+          font-size: 15px;
           color: #f00909;
           border-width: 15px;
-          border-color: #FFA800;
+          border-color: #ff0000;
           border-collapse: collapse;
       }
       table th {
@@ -50,6 +54,7 @@
           border-color: #FFA800;
           background-color: #ffffff;
       }
+      
     </style>
           <thead>
               <th>Id</th>
